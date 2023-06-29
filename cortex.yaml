@@ -47,9 +47,6 @@ info:
     pagerduty:
       id: ABCD123
       type: SERVICE
-  x-cortex-owners:
-  - name: order_management_team
-    type: group
   x-cortex-tag: mybank-online
 openapi: 3.0.1
 
