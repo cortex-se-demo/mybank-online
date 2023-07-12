@@ -44,9 +44,9 @@ info:
     type: metrics
     url: https://app.datadog.com/your_dashboard?env=staging
   x-cortex-oncall:
-    pagerduty:
-      id: ABCD123
-      type: SERVICE
+    opsgenie:
+      id: 1234567-abcd-1234-abcdefgh1234
+      type: SCHEDULE
   x-cortex-owners:
   - name: order_management_team
     type: group
